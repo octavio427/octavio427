@@ -1,0 +1,192 @@
+/*menu nav */
+
+body {
+    margin:0px;
+}
+
+.logo1 {
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*couleur texte menu H1*/
+
+.h1 .texte {  
+    text-align: center;
+}
+
+.textes {
+    color: rgb(0, 0, 0);
+    
+}
+
+/*couleur menu*/
+.menu {
+  background-color: #F5F5DC;
+  
+}
+
+/*menu principale =>logo et lien */
+
+.sousmenu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 40px;
+
+}
+.lien3 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loupe {
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    background-color: #fff;
+}
+
+/*bouton recherche*/
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+/* boutton recherche */
+.champ-recherche {
+    padding: 9px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius:5px 0 0 5px;
+    margin-left: 40px;
+}
+
+/* boutton2  loupe */
+.loupe-button {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;  
+}
+
+/* boutton2  image loupe */
+.loupe{
+    width: 30px;
+    border-radius : 0 5px 5px 0 ;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    background-color:#e480b0;
+}
+
+/* loupe survole */
+.loupe:hover {
+    background-color: #7f275f;
+}
+
+/* image panier*/
+.panier{
+    
+    padding-right: 0px;
+    margin-top: 10px;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+/* texte panier*/
+.panier1 {
+    margin-top: 10px;
+    padding-right: 0px;
+    color: rgb(0, 0, 0);
+}
+
+/* menu nav*/
+.menunav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    background-color: #F5F5DC;
+
+}
+
+.nav {
+    height:0px;
+    display: column;
+    text-decoration: none;
+    margin-left:40px;
+
+}
+
+/*hover textes menu */
+.textes:hover {
+    color: #e480b0;
+    border-radius: 4px;
+
+}
+
+/*hover textes panier */
+.panier1:hover{
+    color: #e480b0;
+    border-radius: 4px;
+}
+
+
+/* texte presentation H1 */
+.presentation{
+
+    
+    /*justify-content:center ;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    padding-bottom:0px;
+    text-align: center;
+       
+}
+
+
+/*block texte presentation H1 */
+/*.blocktexte{
+
+    justify-content:center ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    padding-bottom:0px;
+   
+}*/
